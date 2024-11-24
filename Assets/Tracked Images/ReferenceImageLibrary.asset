@@ -87,3 +87,83 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: playstation
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4966275616712246237
+      m_GuidHigh: 12317243807728577436
+    m_SerializedTextureGuid:
+      m_GuidLow: 4342633116093226477
+      m_GuidHigh: 13414256231346388811
+    m_Size: {x: 0.3, y: 0.39745012}
+    m_SpecifySize: 1
+    m_Name: 2_burger
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4876550289481875146
+      m_GuidHigh: 6070694039942086333
+    m_SerializedTextureGuid:
+      m_GuidLow: 14138013026779158952
+      m_GuidHigh: 2206025356400041050
+    m_Size: {x: 0.3, y: 0.2217284}
+    m_SpecifySize: 1
+    m_Name: 2_cloud
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5334899433835228103
+      m_GuidHigh: 14959614722869596605
+    m_SerializedTextureGuid:
+      m_GuidLow: 11052990488456701723
+      m_GuidHigh: 11761843088405183048
+    m_Size: {x: 0.3, y: 0.2731884}
+    m_SpecifySize: 1
+    m_Name: 2_cloud2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5739897177869628727
+      m_GuidHigh: 13277852287550220184
+    m_SerializedTextureGuid:
+      m_GuidLow: 7490723915477854827
+      m_GuidHigh: 1443443274488736585
+    m_Size: {x: 0.3, y: 0.43113554}
+    m_SpecifySize: 1
+    m_Name: 3_oldpc
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5144125831254372632
+      m_GuidHigh: 17540957417052494767
+    m_SerializedTextureGuid:
+      m_GuidLow: 753271418238997726
+      m_GuidHigh: 6708935843937791624
+    m_Size: {x: 0.3, y: 0.43216524}
+    m_SpecifySize: 1
+    m_Name: 3_pc
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5047338766050219364
+      m_GuidHigh: 1217739780331801264
+    m_SerializedTextureGuid:
+      m_GuidLow: 9395675468576455896
+      m_GuidHigh: 723826849453050569
+    m_Size: {x: 0.3, y: 0.51690966}
+    m_SpecifySize: 1
+    m_Name: 3_tree
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5309890417070490039
+      m_GuidHigh: 12832568908555132825
+    m_SerializedTextureGuid:
+      m_GuidLow: 17245463334970420826
+      m_GuidHigh: 5415792512793385467
+    m_Size: {x: 0.3, y: 0.40875003}
+    m_SpecifySize: 1
+    m_Name: 4_game
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5381322838541214697
+      m_GuidHigh: 15912914122850420096
+    m_SerializedTextureGuid:
+      m_GuidLow: 2194615031450393869
+      m_GuidHigh: 15124723887060867240
+    m_Size: {x: 0.3, y: 0.39855075}
+    m_SpecifySize: 1
+    m_Name: 4_turing
+    m_Texture: {fileID: 0}

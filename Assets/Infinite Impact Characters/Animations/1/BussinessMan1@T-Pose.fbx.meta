@@ -1,0 +1,1953 @@
+fileFormatVersion: 2
+guid: 8173789f49a55cb4aa72a3aa82b450da
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ATLAS_FOR_BOY.001
+    second: {fileID: 2100000, guid: da65dc63d02788041a2d0d9246b597e7, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'foot_l' : rotation
+      error = 30.795176 deg\n\t'ankre_r' : rotation error = 7.863783 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: reg_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ankle_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stomach
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lower_chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lower_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shourder_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_2
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_2.001
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pPlane1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_1_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_2_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_1_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_2_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_3_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_1_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_2_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_3_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_1_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_2_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_3_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_1_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_2_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_3_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: point_3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mid_3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ring_3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pinky_3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BussinessMan1@T-Pose(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:door:import:Assignme_db091b7
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:for_import:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:for_import:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:for_import:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:door:import:As_ae87b4e
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:for_import:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:for_import:e:t_c475559
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:for_import:e:t_45766ff
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:Assignment_2_Version_2_FINAL:light:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:door:import:As_6973dd8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:for_import:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:for_import:e:t_2930601
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:for_import:e:t_e518c88
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:door:imp_4efa8c1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:for_impo_1b85608
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:for_impo_bcb3804
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:for_impo_6ce5251
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:s:sword:Assignment_2_Version_2_FINAL:light:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:door:import:Assign_fa00fd8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:for_import:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:for_import:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:for_import:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:door:import:_186e6c1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:for_import:t_e2c7807
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:for_import:e_ceb6c9d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:for_import:e_c2fc132
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:Assignment_2_Version_2_FINAL:light:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:door:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:door:import:_f826880
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:for_import:t_ca4a494
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:for_import:e_f91dc72
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:for_import:e_bb92e24
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:cam:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:cam:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:door:t_f3d89ca
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:door:i_19073ff
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:for_im_083984b
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:for_im_da89ffb
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:for_im_e31b76d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:cam:tr_3db487b
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:cam:e:_2d04457
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:R:s:sword:Assignment_2_Version_2_FINAL:light:cam:e:_64132d4
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:door:tr_5d6367d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:door:im_c776b6b
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:for_imp_428d525
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:for_imp_e68e412
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:for_imp_346b0ea
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:cam:transform66
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:cam:e:t_673e845
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:cam:e:t_f528dc3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:t_79231f6
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:e_138f4d8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:e_e6b3f76
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:d_ad966ec
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:d_f3ca8c9
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:e_50e854c
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:e_4a1ab6d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:f_5dd7241
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:f_4f96a62
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:f_1fa1c26
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:c_9bd234d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:c_fab2239
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:Assignment_2_Version_2_FINAL:light:c_023b25d
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:t_ac24de2
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:e_08bf9db
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:e_1926285
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:d_0a4bc87
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:d_7541a11
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:e_56b26a4
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:e_82580f8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:f_68a1d9a
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:f_b1dc4cc
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:f_40ae80e
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:c_bb92336
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:c_42d8ce9
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:c_e08bac8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_db9e1e8
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_5d789c6
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_5267ed6
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_6ebaf8f
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_6bcbce9
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_760ed6c
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_b415162
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_1301c91
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_638b727
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_2f248cb
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_fae821b
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_9d926cd
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Version_2_FINAL:l_2232184
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: character_low
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0, y: 0, z: -0.50581485}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: pCube20
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: 0.08086089, y: -0.026174031, z: 0.16506845}
+      rotation: {x: -0.000000037748926, y: 4.837715e-15, z: -5.332658e-18, w: 1}
+      scale: {x: 19.423723, y: 24.617765, z: 64.41251}
+    - name: pCube10
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0.11487331, y: -0.026174031, z: 0.16506845}
+      rotation: {x: -0.000000037748926, y: 4.837715e-15, z: -5.332658e-18, w: 1}
+      scale: {x: 19.423723, y: 24.617765, z: 64.41251}
+    - name: polySurface3
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0.01698758, y: 0.025011547, z: -0.5058149}
+      rotation: {x: -0.000000037748986, y: 2.3869795e-15, z: 2.2477561e-17, w: 1}
+      scale: {x: 16.987583, y: 16.987581, z: 16.987583}
+    - name: pCube9
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: -0.016987592, y: -0.016987564, z: -0.47183958}
+      rotation: {x: -0.000000037748983, y: 2.3365406e-15, z: 1.6161461e-17, w: 1}
+      scale: {x: 16.987583, y: 16.987583, z: 16.987583}
+    - name: nurbsCircle1
+      parentName: BussinessMan1@T-Pose(Clone)
+      position: {x: 0.017685566, y: 0.19379051, z: -0.4736865}
+      rotation: {x: 2.448945e-11, y: -0.000017748389, z: 0.00043908652, w: 0.99999994}
+      scale: {x: 16.987587, y: 16.987587, z: 16.987587}
+    - name: nurbsCircle4
+      parentName: nurbsCircle1
+      position: {x: -0.001, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: nurbsCircle5
+      parentName: nurbsCircle4
+      position: {x: 0.001929734, y: 0.000033683777, z: 0}
+      rotation: {x: 0, y: 0, z: 0.017452406, w: 0.9998477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle6
+      parentName: nurbsCircle5
+      position: {x: 1.4901161e-10, y: -4.6566128e-12, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nurbsCircle7
+      parentName: nurbsCircle6
+      position: {x: 1.4901161e-10, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nurbsCircle8
+      parentName: nurbsCircle7
+      position: {x: 1.4901161e-10, y: -2.3283064e-12, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nurbsCircle9
+      parentName: nurbsCircle8
+      position: {x: 1.4901161e-10, y: -2.3283064e-12, z: 0.0000000023841857}
+      rotation: {x: 1.7763568e-15, y: 6.617445e-24, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nurbsCircle3
+      parentName: nurbsCircle7
+      position: {x: 1.4901161e-10, y: -2.3283064e-12, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: ikHandle2
+      parentName: nurbsCircle3
+      position: {x: -0.026313327, y: 0.07112294, z: 0.040358037}
+      rotation: {x: 1.7763568e-15, y: 6.617445e-24, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nurbsCircle2
+      parentName: nurbsCircle7
+      position: {x: 1.4901161e-10, y: -2.3283064e-12, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: ikHandle1
+      parentName: nurbsCircle2
+      position: {x: 0.02717977, y: 0.08256143, z: 0.04214173}
+      rotation: {x: 1.7763568e-15, y: 6.617445e-24, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Armature
+      parentName: nurbsCircle4
+      position: {x: -2.2351741e-10, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis
+      parentName: Armature
+      position: {x: -0.000010655039, y: 0.037205562, z: 0.028010152}
+      rotation: {x: -0.000000037773468, y: 0.000017748407, z: -0.00043908646, w: 0.99999994}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: pCube23
+      parentName: pelvis
+      position: {x: -7.4505804e-11, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: pCube22
+      parentName: pelvis
+      position: {x: -7.4505804e-11, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: stomach
+      parentName: pelvis
+      position: {x: 7.123759e-12, y: 0.0059552668, z: 0.000045840738}
+      rotation: {x: -0.49822378, y: 0.50176996, z: -0.4982238, w: 0.5017699}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000008}
+    - name: lower_chest
+      parentName: stomach
+      position: {x: -0.013664891, y: -0.0000000036216532, z: -5.672325e-10}
+      rotation: {x: 0.99914294, y: -0.041393336, z: 0.000000059604638, w: 0.000000059604638}
+      scale: {x: 1.0000124, y: 1.0000012, z: 1.0000006}
+    - name: chest
+      parentName: lower_chest
+      position: {x: -0.010306662, y: 0.0008035135, z: 0.000000001271222}
+      rotation: {x: 0.000000029776762, y: -0.0000000012336245, z: 0.00000017881392, w: 1}
+      scale: {x: 0.9999999, y: 0.9999991, z: 0.9999996}
+    - name: pCube21
+      parentName: chest
+      position: {x: -0.0022529198, y: 0.0057124244, z: 0}
+      rotation: {x: 0.5930035, y: -0.38515824, z: -0.59300345, w: -0.38515827}
+      scale: {x: 0.1985581, y: 0.15840684, z: 0.15840684}
+    - name: lower_neck
+      parentName: chest
+      position: {x: -0.007582186, y: -0.00030242614, z: 1.6562424e-10}
+      rotation: {x: -0.99784875, y: 0.06555866, z: -0.00000014449552, w: -0.000000061795305}
+      scale: {x: 1.0000029, y: 1.0000004, z: 1.0000007}
+    - name: upper_neck
+      parentName: lower_neck
+      position: {x: -0.00410287, y: -0.000041504132, z: -5.3061594e-10}
+      rotation: {x: 0.000000029728003, y: -0.00000002988568, z: -0.00718573, w: 0.9999742}
+      scale: {x: 0.9999999, y: 1.000001, z: 1.0000001}
+    - name: head
+      parentName: upper_neck
+      position: {x: -0.007964509, y: -0.000000042109313, z: -3.93768e-10}
+      rotation: {x: 0.0000006029928, y: 0.00000041214633, z: 0.70838886, w: 0.7058224}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000002}
+    - name: hair
+      parentName: head
+      position: {x: 0.023505598, y: -0.098671615, z: 0.00000000230968}
+      rotation: {x: -0.015818866, y: -0.7069298, z: -0.015818866, w: 0.70692986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: head
+      position: {x: -0.001347742, y: 0.000782944, z: -0.002597094}
+      rotation: {x: -0.015818864, y: -0.7069298, z: -0.015818862, w: 0.70692986}
+      scale: {x: 0.41111112, y: 0.07226453, z: 1}
+    - name: polySurface7
+      parentName: head
+      position: {x: -0.0013477425, y: 0.000782944, z: -0.0025970947}
+      rotation: {x: -0.015818864, y: -0.7069298, z: -0.015818862, w: 0.70692986}
+      scale: {x: 0.41111112, y: 0.07226453, z: 1}
+    - name: pSphere1
+      parentName: head
+      position: {x: -0.004402855, y: -0.0012378633, z: -0.0025837626}
+      rotation: {x: 0.48868936, y: -0.51106036, z: 0.48868924, w: 0.5110605}
+      scale: {x: 0.15012802, y: 0.15012804, z: 0.15012805}
+    - name: pSphere2
+      parentName: head
+      position: {x: -0.0044028535, y: -0.0012378525, z: 0.00258}
+      rotation: {x: 0.48868936, y: -0.51106036, z: 0.48868924, w: 0.5110605}
+      scale: {x: 0.15012802, y: 0.15012804, z: 0.15012805}
+    - name: pPlane1
+      parentName: head
+      position: {x: -0.0068892753, y: -0.004154485, z: -1.4901161e-10}
+      rotation: {x: 0.3858054, y: -0.59258264, z: 0.38580537, w: 0.5925827}
+      scale: {x: 1, y: 1, z: 0.11751183}
+    - name: joint6
+      parentName: head
+      position: {x: -0.008959073, y: 0.00000004594214, z: 4.8777905e-11}
+      rotation: {x: -0.015820866, y: -0.70692974, z: -0.015819626, w: 0.70692986}
+      scale: {x: 1.0000005, y: 0.9999996, z: 1.0000011}
+    - name: joint6_end
+      parentName: joint6
+      position: {x: -1.07659444e-10, y: 0.008958959, z: -0.0000000015096696}
+      rotation: {x: 0.000000020489091, y: -0, z: -0.000000020489091, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: joint6_end_end
+      parentName: joint6_end
+      position: {x: -0, y: 0.008959084, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_l
+      parentName: chest
+      position: {x: -0.0044157705, y: 0.00029745005, z: 0.009379702}
+      rotation: {x: -0.4815453, y: 0.47744444, z: 0.5159725, w: 0.5233865}
+      scale: {x: 1.0000005, y: 0.99999887, z: 1.0000008}
+    - name: arm_l
+      parentName: shoulder_l
+      position: {x: -0.015589822, y: -0.000000016093253, z: 5.9604643e-10}
+      rotation: {x: -0.0007545051, y: 0.08040735, z: 0.007158441, w: 0.99673605}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: hand_l
+      parentName: arm_l
+      position: {x: -0.016855042, y: 0.000000005364418, z: 0.000000005960464}
+      rotation: {x: 0.0000000722939, y: 0.000000052154054, z: -0.000000112435345, w: 1}
+      scale: {x: 0.9999995, y: 0.9999991, z: 1.0000004}
+    - name: point_1_l
+      parentName: hand_l
+      position: {x: -0.0053606713, y: 0.00023104071, z: 0.0018661808}
+      rotation: {x: 0.00097316416, y: -0.03831327, z: 0.000112392016, w: 0.9992653}
+      scale: {x: 0.9999997, y: 0.99999917, z: 0.9999999}
+    - name: point_2_l
+      parentName: point_1_l
+      position: {x: -0.0016083973, y: 0.0000000031292438, z: 0.000022542476}
+      rotation: {x: -0.00000026408813, y: 0.000000026077029, z: -0.00000028624706, w: 1}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000001}
+    - name: point_3_l
+      parentName: point_2_l
+      position: {x: -0.0016131944, y: 0.000000005960464, z: 0.000019896626}
+      rotation: {x: 0.00000020727748, y: 0.00000001117609, z: -0.00000062867895, w: 1}
+      scale: {x: 1.000007, y: 0.999993, z: 0.99999994}
+    - name: joint20
+      parentName: point_3_l
+      position: {x: -0.0023430279, y: -0.000000009536743, z: 0.000022755861}
+      rotation: {x: 0.00000016280674, y: 0.00000003725304, z: 0.000000026375329, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: joint20_end
+      parentName: joint20
+      position: {x: 4.4703483e-10, y: 0.002343109, z: -0.0000000023841857}
+      rotation: {x: -0, y: -0, z: -7.3597745e-16, w: 1}
+      scale: {x: 1.0000002, y: 0.99999964, z: 0.99999994}
+    - name: joint20_end_end
+      parentName: joint20_end
+      position: {x: -0, y: 0.002343136, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb_1_l
+      parentName: hand_l
+      position: {x: -0.002436543, y: 0.00022956848, z: 0.0030746937}
+      rotation: {x: 0.27322438, y: 0.36400074, z: -0.037740305, w: 0.88962215}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1.0000006}
+    - name: thumb_2_l
+      parentName: thumb_1_l
+      position: {x: -0.0016083878, y: 0.000000019669532, z: 0.000022536813}
+      rotation: {x: 0.00000017881389, y: 0.0000027716153, z: -0.00000026077026, w: 1}
+      scale: {x: 1.0000024, y: 0.9999979, z: 1.0000004}
+    - name: joint19
+      parentName: thumb_2_l
+      position: {x: -0.0023863786, y: 0.000000016093253, z: 0.0000198704}
+      rotation: {x: -0.00000044703495, y: -0.000000059604183, z: 0.00000008195513, w: 1}
+      scale: {x: 1, y: 0.9999994, z: 1.0000002}
+    - name: joint19_end
+      parentName: joint19
+      position: {x: 0.000000005960464, y: 0.0023864566, z: -5.9604643e-10}
+      rotation: {x: 0.00000023841807, y: 0.00000017881335, z: 0.00000016391343, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: joint19_end_end
+      parentName: joint19_end
+      position: {x: -0, y: 0.002386475, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mid_1_l
+      parentName: hand_l
+      position: {x: -0.0054971445, y: 0.0003581047, z: 0.00028371453}
+      rotation: {x: 0.0005977548, y: -0.0450501, z: 0.009714286, w: 0.99893737}
+      scale: {x: 0.9999987, y: 0.99999976, z: 0.9999991}
+    - name: mid_2_l
+      parentName: mid_1_l
+      position: {x: -0.0019389618, y: 0.0000000012293457, z: -0.000000005960464}
+      rotation: {x: -0.00000014153191, y: -0.000000100582824, z: 0.000001008655, w: 1}
+      scale: {x: 1.0000019, y: 0.9999989, z: 1.0000006}
+    - name: mid_3_l
+      parentName: mid_2_l
+      position: {x: -0.0019019332, y: -0.0000000035762786, z: 0.000000005364418}
+      rotation: {x: 0.00000010457009, y: 0.000000040978083, z: 0.00000001861007, w: 1}
+      scale: {x: 1.0000001, y: 0.99999946, z: 0.9999995}
+    - name: joint20.001
+      parentName: mid_3_l
+      position: {x: -0.0021949387, y: -0.000020100177, z: -0.0000000011920929}
+      rotation: {x: 0.00000009249197, y: 0.000000011175774, z: -0.00000005402216, w: 1}
+      scale: {x: 1.0000001, y: 0.99999946, z: 0.9999999}
+    - name: joint20.001_end
+      parentName: joint20.001
+      position: {x: 0.0000000048778017, y: 0.0021950016, z: 0}
+      rotation: {x: 0.00000003358576, y: -0.000000029802354, z: -0.00000008753339, w: 1}
+      scale: {x: 1.0000044, y: 0.999996, z: 0.9999994}
+    - name: joint20.001_end_end
+      parentName: joint20.001_end
+      position: {x: -0, y: 0.002195026, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring_1_l
+      parentName: hand_l
+      position: {x: -0.0053691342, y: 0.00033278225, z: -0.0013276022}
+      rotation: {x: 0.0007019989, y: -0.045155607, z: 0.0015939989, w: 0.9989785}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+    - name: ring_2_l
+      parentName: ring_1_l
+      position: {x: -0.0017274098, y: 0.0000000021606683, z: -0.000009992123}
+      rotation: {x: -0.00000075090776, y: 0.000000022351736, z: -0.0000009279786, w: 1}
+      scale: {x: 1.0000004, y: 0.99999684, z: 0.9999994}
+    - name: ring_3_l
+      parentName: ring_2_l
+      position: {x: -0.00161282, y: 0.0000000011920929, z: -0.00001365304}
+      rotation: {x: 0.00000068234647, y: -0.00000003725234, z: 0.00000010803156, w: 1}
+      scale: {x: 1.0000013, y: 1.0000004, z: 1.0000002}
+    - name: joint20.002
+      parentName: ring_3_l
+      position: {x: -0.0022077255, y: 0.0000000080466265, z: -0.000026965738}
+      rotation: {x: -0.00000003132299, y: -0.00000002980235, z: 0.00000002979959, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999997}
+    - name: joint20.002_end
+      parentName: joint20.002
+      position: {x: -0.00000000230968, y: 0.0022078655, z: 5.9604643e-10}
+      rotation: {x: 0.0000000018480928, y: 0.000000029802326, z: -0.000000044700744, w: 1}
+      scale: {x: 1.0000042, y: 0.9999949, z: 0.99999964}
+    - name: joint20.002_end_end
+      parentName: joint20.002_end
+      position: {x: -0, y: 0.0022078913, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pinky_1_l
+      parentName: hand_l
+      position: {x: -0.0046361904, y: 0.00033591746, z: -0.0028370898}
+      rotation: {x: 0.0016632561, y: -0.045523636, z: -0.0036906644, w: 0.9989551}
+      scale: {x: 0.99999887, y: 0.9999999, z: 1.0000001}
+    - name: pinky_2_l
+      parentName: pinky_1_l
+      position: {x: -0.0013561138, y: -0.000000003054738, z: -0.0000099885465}
+      rotation: {x: 0.0000008499189, y: -0.000000007450578, z: -0.00000016138432, w: 1}
+      scale: {x: 1.0000015, y: 0.9999982, z: 1.0000004}
+    - name: pinky_3_l
+      parentName: pinky_2_l
+      position: {x: -0.0013551408, y: 0.000000002980232, z: -0.000013647079}
+      rotation: {x: -0.00000037433333, y: -0.000000029802248, z: 0.00000014901886, w: 1}
+      scale: {x: 1.0000005, y: 0.9999986, z: 1.0000002}
+    - name: joint20.003
+      parentName: pinky_3_l
+      position: {x: -0.0016993673, y: -0.000000002980232, z: -0.000026971697}
+      rotation: {x: 0.00000011819063, y: 0.000000014901321, z: 0.00000034272298, w: 1}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.0000001}
+    - name: joint20.003_end
+      parentName: joint20.003
+      position: {x: -0.0000000043213366, y: 0.0016995583, z: 0.0000000023841857}
+      rotation: {x: -5.237765e-10, y: -0.000000029802333, z: -0.000000011168564, w: 1}
+      scale: {x: 1.0000048, y: 0.9999956, z: 0.9999995}
+    - name: joint20.003_end_end
+      parentName: joint20.003_end
+      position: {x: -0, y: 0.0016995807, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shourder_r
+      parentName: chest
+      position: {x: -0.0044158176, y: 0.00029746522, z: -0.009379698}
+      rotation: {x: 0.47744504, y: 0.48154536, z: -0.52338624, w: 0.5159721}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.000003}
+    - name: arm_r
+      parentName: shourder_r
+      position: {x: 0.015589788, y: 0.00000002682209, z: 0.000000024437904}
+      rotation: {x: -0.0007545797, y: 0.0804053, z: 0.007158039, w: 0.9967363}
+      scale: {x: 0.99999964, y: 0.99999887, z: 0.999999}
+    - name: hand_r
+      parentName: arm_r
+      position: {x: 0.016855074, y: 0.000000023841856, z: -0.000000041127205}
+      rotation: {x: -0.000000020314472, y: -0.00000462681, z: -0.00000002143497, w: 1}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000023}
+    - name: point_1
+      parentName: hand_r
+      position: {x: 0.005360608, y: -0.00023098766, z: -0.0018661463}
+      rotation: {x: 0.0009737195, y: -0.038294572, z: 0.00011262964, w: 0.9992661}
+      scale: {x: 1.0000008, y: 1.0000026, z: 1.0000039}
+    - name: point_2
+      parentName: point_1
+      position: {x: 0.0016084553, y: -0.0000000017881393, z: -0.000022541284}
+      rotation: {x: 0.000000032887318, y: -0.000012904401, z: -0.0000007109518, w: 1}
+      scale: {x: 0.9999995, y: 1.0000019, z: 1.0000014}
+    - name: point_3
+      parentName: point_2
+      position: {x: 0.0016131145, y: 0.000000005960464, z: -0.000019814372}
+      rotation: {x: -0.00000053026656, y: -0.000016074626, z: -0.00000049046855, w: 1}
+      scale: {x: 1.0000079, y: 0.99999166, z: 0.9999999}
+    - name: joint20.004
+      parentName: point_3
+      position: {x: 0.0023430511, y: 0.000000007152557, z: -0.000022905468}
+      rotation: {x: 0.0000001307317, y: 0.0000009424982, z: -0.00000005171711, w: 1}
+      scale: {x: 0.9999996, y: 0.99999964, z: 0.9999998}
+    - name: joint20.004_end
+      parentName: joint20.004
+      position: {x: 0.0000000020861626, y: 0.002343129, z: -5.9604643e-10}
+      rotation: {x: 0.00000010401727, y: -0, z: 0.0000000062689587, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 0.99999976}
+    - name: joint20.004_end_end
+      parentName: joint20.004_end
+      position: {x: -0, y: 0.0023431596, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thumb_1
+      parentName: hand_r
+      position: {x: 0.0024365175, y: -0.00022951722, z: -0.0030747198}
+      rotation: {x: 0.27322716, y: 0.36400425, z: -0.0377366, w: 0.88962}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1.0000015}
+    - name: thumb_2
+      parentName: thumb_1
+      position: {x: 0.0016083156, y: -0.000000029206275, z: -0.000022529066}
+      rotation: {x: -0.000000029802319, y: 0.0000010430812, z: 0.0000007227062, w: 1}
+      scale: {x: 1.0000024, y: 0.9999982, z: 1.0000008}
+    - name: joint19.001
+      parentName: thumb_2
+      position: {x: 0.0023864466, y: -0.000000022053719, z: -0.0000198856}
+      rotation: {x: 0.0000012218966, y: 0.0000022351728, z: -0.00000008195507, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: joint19.001_end
+      parentName: joint19.001
+      position: {x: -5.9604643e-10, y: 0.0023865202, z: 0.0000000032782554}
+      rotation: {x: -0.000001341106, y: -0.0000024735912, z: 0.000000081954894, w: 1}
+      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000011}
+    - name: joint19.001_end_end
+      parentName: joint19.001_end
+      position: {x: -0, y: 0.00238654, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mid_1
+      parentName: hand_r
+      position: {x: 0.005497147, y: -0.00035810887, z: -0.00028375388}
+      rotation: {x: 0.00059791334, y: -0.045028977, z: 0.009706746, w: 0.9989383}
+      scale: {x: 1.0000001, y: 1.000002, z: 1.0000026}
+    - name: mid_2
+      parentName: mid_1
+      position: {x: 0.0019389681, y: 0.000000017285346, z: 0.00000006973743}
+      rotation: {x: 0.0000008875212, y: -0.0000057220454, z: -0.00000034416004, w: 1}
+      scale: {x: 1.000004, y: 0.9999958, z: 1.0000001}
+    - name: mid_3
+      parentName: mid_2
+      position: {x: 0.0019019315, y: -0.0000000047683715, z: 0.0000000035762786}
+      rotation: {x: -0.0000006095478, y: -0.000012882054, z: -0.0000003043093, w: 1}
+      scale: {x: 0.9999999, y: 1.0000012, z: 1.000001}
+    - name: joint20.005
+      parentName: mid_3
+      position: {x: 0.0021949722, y: 0.00002012372, z: -0.00000011622905}
+      rotation: {x: -0.000000049882935, y: -0.000000096855715, z: 0.000000054055914, w: 1}
+      scale: {x: 0.9999994, y: 1.0000001, z: 1.0000007}
+    - name: joint20.005_end
+      parentName: joint20.005
+      position: {x: -0.0000000039115546, y: 0.0021950495, z: -5.9604643e-10}
+      rotation: {x: 0.000000013707899, y: -0.00000003352761, z: -0.0000000018501353, w: 1}
+      scale: {x: 1.0000021, y: 0.99999946, z: 1.000001}
+    - name: joint20.005_end_end
+      parentName: joint20.005_end
+      position: {x: -0, y: 0.0021950738, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ring_1
+      parentName: hand_r
+      position: {x: 0.005369169, y: -0.00033276915, z: 0.0013275599}
+      rotation: {x: 0.0007022489, y: -0.045146286, z: 0.0015828498, w: 0.9989789}
+      scale: {x: 1.0000005, y: 1.0000014, z: 1.0000018}
+    - name: ring_2
+      parentName: ring_1
+      position: {x: 0.0017274147, y: 0.000000030100345, z: 0.000010000467}
+      rotation: {x: -0.0000005306937, y: -0.000007532535, z: -0.00000034315863, w: 1}
+      scale: {x: 1.000004, y: 0.9999981, z: 1.0000023}
+    - name: ring_3
+      parentName: ring_2
+      position: {x: 0.0016128181, y: -0.00000003993511, z: 0.000013577937}
+      rotation: {x: 0.00000026582586, y: 0.00000093132155, z: -0.0000001135456, w: 1}
+      scale: {x: 0.9999998, y: 0.9999991, z: 0.9999991}
+    - name: joint20.006
+      parentName: ring_3
+      position: {x: 0.0022077467, y: 0.000000045895575, z: 0.000026917456}
+      rotation: {x: 0.000000033112563, y: 0.0000006929046, z: -0.0000000018057712, w: 1}
+      scale: {x: 1.0000004, y: 0.9999995, z: 0.99999994}
+    - name: joint20.006_end
+      parentName: joint20.006
+      position: {x: -4.4703483e-10, y: 0.0022078753, z: -0.0000000023841857}
+      rotation: {x: -0, y: -0, z: 3.7762413e-17, w: 1}
+      scale: {x: 1.0000015, y: 0.999999, z: 1.0000005}
+    - name: joint20.006_end_end
+      parentName: joint20.006_end
+      position: {x: -0, y: 0.0022079009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pinky_1
+      parentName: hand_r
+      position: {x: 0.004636199, y: -0.00033590914, z: 0.0028370826}
+      rotation: {x: 0.0016650305, y: -0.045540627, z: -0.0036871918, w: 0.9989543}
+      scale: {x: 1.0000001, y: 1.000002, z: 1.0000026}
+    - name: pinky_2
+      parentName: pinky_1
+      position: {x: 0.0013561733, y: -0.000000004470348, z: 0.000009940266}
+      rotation: {x: 0.0000004789326, y: 0.0000011771916, z: -0.00000015785007, w: 1}
+      scale: {x: 1.0000033, y: 0.99999607, z: 1.0000006}
+    - name: pinky_3
+      parentName: pinky_2
+      position: {x: 0.0013550717, y: 0.00000004529953, z: 0.000013587474}
+      rotation: {x: -0.00000045760353, y: 0.00001811236, z: 0.0000010283727, w: 1}
+      scale: {x: 1.0000005, y: 1.0000014, z: 1.0000018}
+    - name: joint20.007
+      parentName: pinky_3
+      position: {x: 0.0016993727, y: 0.000000007152557, z: 0.00002691984}
+      rotation: {x: -0.00000016379842, y: 0.0000000074505797, z: 0.000000106164045, w: 1}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000015}
+    - name: joint20.007_end
+      parentName: joint20.007
+      position: {x: 0.0000000019371509, y: 0.0016995703, z: -0.000000001490116}
+      rotation: {x: -0.000000030122177, y: 0.000000007450585, z: -0.00000001490184, w: 1}
+      scale: {x: 1.0000015, y: 0.9999998, z: 1.0000021}
+    - name: joint20.007_end_end
+      parentName: joint20.007_end
+      position: {x: -0, y: 0.0016995902, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_l
+      parentName: pelvis
+      position: {x: -0.005759566, y: -0.0030405663, z: 0.00015225649}
+      rotation: {x: 0.47673252, y: 0.5222252, z: 0.47673902, w: 0.5222325}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: knee_l
+      parentName: leg_l
+      position: {x: -0.020045409, y: 0.00007422469, z: 0.0000000016391277}
+      rotation: {x: -0.99417543, y: -0.107774295, z: 0.000000089406974, w: 0.00000005960465}
+      scale: {x: 1.000003, y: 0.99999976, z: 0.9999999}
+    - name: ankle_l
+      parentName: knee_l
+      position: {x: -0.020341527, y: -0.00045072465, z: 0.0000000039115546}
+      rotation: {x: 0.000000030769776, y: -0.00000006018592, z: -0.062433455, w: -0.99804914}
+      scale: {x: 1.0000015, y: 1.0000004, z: 1.0000001}
+    - name: foot_l
+      parentName: ankle_l
+      position: {x: -0.0019219955, y: -0.00010040414, z: 0.000000001527369}
+      rotation: {x: -0.8022926, y: -0.59693104, z: -0.000004367055, w: 0.0000053837343}
+      scale: {x: 1.000001, y: 0.9999979, z: 1.0000001}
+    - name: pCube14
+      parentName: foot_l
+      position: {x: -0.0063010845, y: 0.0009430289, z: 0.000005619526}
+      rotation: {x: 0.035987552, y: -0.7061903, z: 0.03598754, w: 0.7061905}
+      scale: {x: 0.40570885, y: 0.16969207, z: 0.083314404}
+    - name: pCube13
+      parentName: foot_l
+      position: {x: -0.0046281754, y: 0.0010803151, z: 0.0000056183335}
+      rotation: {x: 0.038003005, y: -0.7060848, z: 0.038003, w: 0.70608485}
+      scale: {x: 0.4057088, y: 0.16969205, z: 0.08331442}
+    - name: foot_2
+      parentName: foot_l
+      position: {x: -0.0076235193, y: 0.0000657168, z: -0.000000002057657}
+      rotation: {x: -0.0000008956415, y: 0.00000024172778, z: -0.118083715, w: 0.9930037}
+      scale: {x: 1.0000032, y: 0.9999959, z: 1.0000017}
+    - name: pCube15
+      parentName: foot_2
+      position: {x: -0.00053465366, y: 0.0007940918, z: 0.000005619526}
+      rotation: {x: 0.0638276, y: -0.70422006, z: 0.063827574, w: 0.7042203}
+      scale: {x: 0.40570885, y: 0.1696921, z: 0.08331441}
+    - name: joint15
+      parentName: foot_2
+      position: {x: -0.0064346846, y: -0.000000011362135, z: -0.0000000015340381}
+      rotation: {x: -0.01934987, y: -0.706842, z: -0.01935153, w: 0.7068418}
+      scale: {x: 1.0000008, y: 1.0000021, z: 0.9999991}
+    - name: joint15_end
+      parentName: joint15
+      position: {x: 3.7696735e-10, y: 0.0064346474, z: 0.0000000067598966}
+      rotation: {x: -0.000000019557772, y: -0.00000008940696, z: 0.000000050291412, w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: joint15_end_end
+      parentName: joint15_end
+      position: {x: -0, y: 0.0064346734, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: reg_r
+      parentName: pelvis
+      position: {x: 0.00575957, y: -0.0030405712, z: 0.00015224933}
+      rotation: {x: 0.5222289, y: -0.4767358, z: 0.52222884, w: -0.47673583}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999999}
+    - name: knee_r
+      parentName: reg_r
+      position: {x: 0.020045416, y: -0.00007423911, z: -0.0000000016391277}
+      rotation: {x: 0.9941755, y: 0.10777349, z: -0.000000089406974, w: -0.000000044703487}
+      scale: {x: 0.99999833, y: 0.9999999, z: 1.0000002}
+    - name: ankre_r
+      parentName: knee_r
+      position: {x: 0.020341612, y: 0.00045067875, z: -0.000000004842877}
+      rotation: {x: -0.000000058187915, y: -0.000000068893634, z: -0.06243413, w: -0.9980491}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: foot_r
+      parentName: ankre_r
+      position: {x: 0.0019220072, y: 0.00010039622, z: -0.000000001527369}
+      rotation: {x: 0.80229324, y: 0.59693015, z: -0.000000058400616, w: -0.00000004325088}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.0000008}
+    - name: pCube17
+      parentName: foot_r
+      position: {x: 0.004628195, y: -0.0010803795, z: -0.000009570122}
+      rotation: {x: 0.70608497, y: 0.03800299, z: 0.70608467, w: -0.038003005}
+      scale: {x: 0.40570882, y: 0.16969213, z: 0.083314404}
+    - name: pCube18
+      parentName: foot_r
+      position: {x: 0.0063011036, y: -0.00094309385, z: -0.000009570717}
+      rotation: {x: 0.7061905, y: 0.03598751, z: 0.7061903, w: -0.035987522}
+      scale: {x: 0.40570888, y: 0.1696921, z: 0.0833144}
+    - name: foot_2.001
+      parentName: foot_r
+      position: {x: 0.007623535, y: -0.000065711065, z: 0.000000001325352}
+      rotation: {x: 0.0000004140685, y: -0.000000052883237, z: -0.118082225, w: 0.9930039}
+      scale: {x: 0.99999934, y: 1.0000035, z: 1.0000019}
+    - name: pCube19
+      parentName: foot_2.001
+      position: {x: 0.0005346632, y: -0.0007941502, z: -0.000009569526}
+      rotation: {x: 0.70422024, y: 0.06382757, z: 0.7042201, w: -0.06382758}
+      scale: {x: 0.4057088, y: 0.1696921, z: 0.08331439}
+    - name: joint15.001
+      parentName: foot_2.001
+      position: {x: 0.0064347414, y: -0.0000000034831464, z: -1.4972101e-10}
+      rotation: {x: -0.019351948, y: -0.70684206, z: -0.019351143, w: 0.70684177}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.9999998}
+    - name: joint15.001_end
+      parentName: joint15.001
+      position: {x: 4.4496118e-10, y: 0.006434756, z: 0.0000000012945384}
+      rotation: {x: 0.000000022351736, y: -0, z: -0.000000020489091, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: joint15.001_end_end
+      parentName: joint15.001_end
+      position: {x: -0, y: 0.0064347396, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle10
+      parentName: nurbsCircle1
+      position: {x: 0.0072929207, y: -1.4210854e-16, z: 0.005720546}
+      rotation: {x: 0, y: -0.22331052, z: -0, w: 0.97474736}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+    - name: ikHandle3
+      parentName: nurbsCircle10
+      position: {x: -0.0057595675, y: 0.0041812593, z: 0.028070819}
+      rotation: {x: -1.7763568e-15, y: -0.000000014901161, z: -8.881784e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle5
+      parentName: nurbsCircle10
+      position: {x: -0.0057595675, y: 0.0017015317, z: 0.04181675}
+      rotation: {x: -1.7763568e-15, y: -0.000000014901161, z: -8.881784e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle11
+      parentName: nurbsCircle1
+      position: {x: -0.0023670557, y: 0, z: 0.0020739196}
+      rotation: {x: 0, y: 0.11164065, z: -0, w: 0.99374866}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: ikHandle4
+      parentName: nurbsCircle11
+      position: {x: 0.0057595703, y: 0.0041812584, z: 0.0280708}
+      rotation: {x: 1.776357e-15, y: 0.0000000074505815, z: -1.8954846e-37, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: ikHandle6
+      parentName: nurbsCircle11
+      position: {x: 0.0057595703, y: 0.0017015296, z: 0.041816797}
+      rotation: {x: 1.776357e-15, y: 0.0000000074505815, z: -1.8954846e-37, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: locator4
+      parentName: nurbsCircle1
+      position: {x: 0.0057595694, y: 0.026342498, z: 0.059939947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: locator5
+      parentName: nurbsCircle1
+      position: {x: -0.0057599996, y: 0.026342498, z: 0.059939947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: locator2
+      parentName: nurbsCircle1
+      position: {x: -0.024849998, y: 0.0839741, z: -0.013229653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: locator1
+      parentName: nurbsCircle1
+      position: {x: 0.0248542, y: 0.0839741, z: -0.013229653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
