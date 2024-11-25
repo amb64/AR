@@ -36,7 +36,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: House Dancing
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 641
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -86,8 +115,1619 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: bg_character_3:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_3:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MaleOlderAdult3@House Dancing(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:transform66
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:e:transform1
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:e:transform3
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:door:_65a56e0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:door:_aaeffc7
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:e1:transform1
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:e1:transform3
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:for_i_d7004d5
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:for_i_8bc97f0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:for_i_f581457
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:cam:t_3c7216f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:cam:e_5d3d5ab
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:cam:e_fa73761
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_cdb9204
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_15dc147
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_6e3821d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_529f2c4
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_f9d37a6
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_d584bce
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_da093d5
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_464929b
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_71a5ed3
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_8c74785
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_95fbfaa
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_b57cf9e
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:Assignment_2_Version_2_FINAL:light_f9cb87f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_bcca33d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_4334ff1
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_37a0a64
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_ec9ccb2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_4a822bb
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_3c830a1
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_6c39b95
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_80ab583
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_f330571
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_d86b934
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_f6ecf82
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_effeea1
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_0cb471f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_690b4e8
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_d6b9d27
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_93ced93
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_825ecfc
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_803ec9c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_b555638
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_d17f281
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_77b2314
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_ef8dc7d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_2c4e415
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_443c117
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_47b2c16
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:s:sword:Assignment_2_Version_2_FINAL_25af4e4
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:transform66
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:e:t_3c4e85f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:e:t_a07b3fa
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:doo_8a9de8d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:doo_c8f4d2a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:e1:_bd2710c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:e1:_679acc4
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:for_66dc3cd
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:for_4d31d42
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:for_6bfdfdb
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:cam_3464371
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:cam_b4f1063
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:cam_4c7347a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_dec608f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_741baa2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_2f63391
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_78ac384
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_0ace98a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_b3791a5
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_c10fbb2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_72c6114
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_d27b105
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_2859903
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_a21d8ff
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_5e79166
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:Assignment_2_Version_2_FINAL:lig_6fb9727
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_79e436e
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_24e1873
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_4deb64f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_8006950
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_8cfd214
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_3121294
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_049dcfc
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_3568f81
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_7fc25b2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_b639e99
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_2268fcb
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_2192d02
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_5e4b066
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_ad7fc66
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_02aa753
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_f0a45d0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_2f6fa4a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_0f590e0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_130bb9e
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_239e021
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_5347b42
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_ee9b7f3
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_db28da9
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_0c9a236
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_2f12c4b
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:R:s:sword:Assignment_2_Version_2_FIN_31ceeb4
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__17776a5
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__8ecc49c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__22253ac
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__8177f41
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__75715c4
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__6d61f31
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__30e0d5d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__ccf7ec6
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__b56d4dc
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__ce60e6d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__d3b31b6
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__fb3fb11
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__f98465d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__adb55ad
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__e70e80a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__16dfbb2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__637c09b
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__ec8f4ad
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__53ff148
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__e8aa76c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__a95193d
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__a6a6cf8
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__07db245
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__4d819f6
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__7b77dd7
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:Assignment_2_Version__8dfe205
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_e9a768c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_d465b0a
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_e5fd70b
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_fdc9671
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_8ad9ed2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_c5275a0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_4e62ec0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_7b565ec
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_ae83077
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_0e9c528
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_a147887
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_f456774
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_d3238c0
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_f99597f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_e9eeedb
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_678f655
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_7ef62af
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_a29961c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_4acde05
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_29150b2
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_7988aa9
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_07a6958
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_a67de9f
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_0b3bd8c
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_40fa82b
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:ZGX:CROSX_UP:ZGX:s:sword:Assignment_2_Ve_4657339
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:polySurface3
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0, y: 0, z: -0.4797563}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 16.811193, y: 16.811193, z: 16.811193}
+    - name: bg_character_3:polySurface4
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface5
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface6
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface7
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface8
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface9
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface10
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface13
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface14
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface15
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface16
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface17
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface18
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface19
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:polySurface20
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.5527137e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:pCube1
+      parentName: bg_character_3:polySurface3
+      position: {x: -0, y: 0.07877784, z: 0.03420202}
+      rotation: {x: -0.18675236, y: 0, z: -0, w: 0.98240703}
+      scale: {x: 0.07220984, y: 0.1967949, z: 0.016960906}
+    - name: bg_character_3:Hips
+      parentName: MaleOlderAdult3@House Dancing(Clone)
+      position: {x: -0.0018937574, y: 1.0239129, z: -0.016770175}
+      rotation: {x: 0.0000000065702213, y: -0.000000005539896, z: 4.5464885e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftUpLeg
+      parentName: bg_character_3:Hips
+      position: {x: -0.088578425, y: -0.051765516, z: -0.0032152217}
+      rotation: {x: -0.000010999416, y: 0.0014091256, z: 0.99996847, w: 0.007818447}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000002}
+    - name: bg_character_3:LeftLeg
+      parentName: bg_character_3:LeftUpLeg
+      position: {x: -1.1729142e-11, y: 0.4246551, z: 6.52344e-11}
+      rotation: {x: -0.0056658345, y: -0.000056142864, z: 0.009910451, w: 0.9999349}
+      scale: {x: 1.0000023, y: 1.0000024, z: 0.99999976}
+    - name: bg_character_3:LeftFoot
+      parentName: bg_character_3:LeftLeg
+      position: {x: 4.4742874e-13, y: 0.40624446, z: -2.0003636e-10}
+      rotation: {x: 0.45688882, y: 0.014118599, z: -0.007252924, w: 0.88938224}
+      scale: {x: 1.0000013, y: 1.0000011, z: 0.9999997}
+    - name: bg_character_3:LeftToeBase
+      parentName: bg_character_3:LeftFoot
+      position: {x: -1.5065493e-10, y: 0.1917258, z: -0.000000001793939}
+      rotation: {x: 0.31224033, y: -0.030631337, z: 0.010073495, w: 0.9494558}
+      scale: {x: 1.0000019, y: 1.0000046, z: 0.9999983}
+    - name: bg_character_3:LeftToe_End
+      parentName: bg_character_3:LeftToeBase
+      position: {x: -1.1849117e-11, y: 0.07622205, z: -1.1156084e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:Spine
+      parentName: bg_character_3:Hips
+      position: {x: -0, y: 0.09324173, z: -0.00008697212}
+      rotation: {x: -0.00046639284, y: 0.000000008311135, z: -0.0000000027660734, w: 0.9999999}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: bg_character_3:Spine1
+      parentName: bg_character_3:Spine
+      position: {x: -0, y: 0.108781934, z: -3.830902e-13}
+      rotation: {x: 0.0000000061118044, y: -0.000000008165901, z: 0.0000000029983103, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: bg_character_3:Spine2
+      parentName: bg_character_3:Spine1
+      position: {x: -0, y: 0.124322414, z: 2.2809487e-12}
+      rotation: {x: -0.000000059284503, y: 0.000000006037432, z: 0.0000000014063442, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000001}
+    - name: bg_character_3:RightShoulder
+      parentName: bg_character_3:Spine2
+      position: {x: 0.057873305, y: 0.122479476, z: -0.000028773555}
+      rotation: {x: -0.5667455, y: -0.42276287, z: 0.56702644, w: -0.42255443}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000008}
+    - name: bg_character_3:RightArm
+      parentName: bg_character_3:RightShoulder
+      position: {x: -1.0759582e-12, y: 0.12102934, z: -5.2873617e-10}
+      rotation: {x: 0.1361592, y: 0.00027801094, z: -0.0020222066, w: -0.99068487}
+      scale: {x: 1.0000014, y: 1.0000007, z: 1.0000004}
+    - name: bg_character_3:RightForeArm
+      parentName: bg_character_3:RightArm
+      position: {x: 1.510178e-11, y: 0.24957393, z: -5.020695e-12}
+      rotation: {x: -0.018550439, y: 0.000070592905, z: -0.0037993127, w: 0.9998207}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: bg_character_3:RightHand
+      parentName: bg_character_3:RightForeArm
+      position: {x: 4.7141777e-11, y: 0.24242267, z: -1.7695356e-12}
+      rotation: {x: 0.017926205, y: -0.03161751, z: -0.016038649, w: 0.9992106}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bg_character_3:RightHandThumb1
+      parentName: bg_character_3:RightHand
+      position: {x: -0.03061865, y: 0.040591784, z: 0.0041475953}
+      rotation: {x: 0.032190546, y: 0.009662077, z: 0.37467378, w: 0.9265474}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000006}
+    - name: bg_character_3:RightHandThumb2
+      parentName: bg_character_3:RightHandThumb1
+      position: {x: 0.0013144364, y: 0.04078979, z: 3.5508746e-10}
+      rotation: {x: 0.031045996, y: -0.001098247, z: -0.033492114, w: 0.99895614}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bg_character_3:RightHandThumb3
+      parentName: bg_character_3:RightHandThumb2
+      position: {x: -0.0028760615, y: 0.035065707, z: 1.1137302e-10}
+      rotation: {x: -0.030455237, y: 0.00072519254, z: 0.0492746, w: 0.9983206}
+      scale: {x: 1, y: 0.9999997, z: 0.99999994}
+    - name: bg_character_3:RightHandThumb4
+      parentName: bg_character_3:RightHandThumb3
+      position: {x: 0.0015616337, y: 0.025700016, z: -2.3902373e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:RightHandMiddle1
+      parentName: bg_character_3:RightHand
+      position: {x: -0.012858636, y: 0.11388642, z: -0.0010877345}
+      rotation: {x: -0.039618753, y: -0.0006740168, z: -0.016994882, w: -0.99907017}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: bg_character_3:RightHandMiddle2
+      parentName: bg_character_3:RightHandMiddle1
+      position: {x: 0.0000028108918, y: 0.037195392, z: 2.1237667e-10}
+      rotation: {x: 0.041419577, y: -0.00000007456399, z: 0.0000042856273, w: -0.99914193}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000002}
+    - name: bg_character_3:RightHandMiddle3
+      parentName: bg_character_3:RightHandMiddle2
+      position: {x: -0.000002382306, y: 0.03706427, z: -5.952643e-12}
+      rotation: {x: 0.027324699, y: -0.00000002877431, z: 0.000000059565792, w: 0.9996267}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bg_character_3:RightHandMiddle4
+      parentName: bg_character_3:RightHandMiddle3
+      position: {x: -0.0000004285531, y: 0.031908333, z: -2.1185798e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:RightHandRing1
+      parentName: bg_character_3:RightHand
+      position: {x: 0.014017848, y: 0.11637426, z: -0.0007385873}
+      rotation: {x: -0.03763414, y: -0.00031944548, z: -0.008479894, w: -0.99925554}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000007}
+    - name: bg_character_3:RightHandRing2
+      parentName: bg_character_3:RightHandRing1
+      position: {x: 0.000005908485, y: 0.035430603, z: 1.1249938e-10}
+      rotation: {x: 0.041408747, y: 0.00000020841249, z: 0.0000072127696, w: -0.9991423}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: bg_character_3:RightHandRing3
+      parentName: bg_character_3:RightHandRing2
+      position: {x: -0.0000017120344, y: 0.033316124, z: -6.9582027e-12}
+      rotation: {x: -0.01958714, y: 0.000000024340437, z: 0.00000009085165, w: 0.9998082}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: bg_character_3:RightHandRing4
+      parentName: bg_character_3:RightHandRing3
+      position: {x: -0.000004196435, y: 0.027203122, z: 3.2568436e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:RightHandPinky1
+      parentName: bg_character_3:RightHand
+      position: {x: 0.03800507, y: 0.10909037, z: -0.0022622691}
+      rotation: {x: -0.041399807, y: 0.0045895604, z: 0.010299705, w: -0.9990791}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000005}
+    - name: bg_character_3:RightHandPinky2
+      parentName: bg_character_3:RightHandPinky1
+      position: {x: 0.000009986412, y: 0.031138172, z: -4.67881e-10}
+      rotation: {x: -0.04023683, y: -0.0000041732555, z: -0.000070219976, w: 0.99919015}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: bg_character_3:RightHandPinky3
+      parentName: bg_character_3:RightHandPinky2
+      position: {x: -0.0000006213281, y: 0.025865324, z: 3.3987816e-11}
+      rotation: {x: 0.039318103, y: -0.000010341443, z: 0.00010501409, w: -0.9992268}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: bg_character_3:RightHandPinky4
+      parentName: bg_character_3:RightHandPinky3
+      position: {x: -0.000009365918, y: 0.022817386, z: 5.6268164e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:RightHandIndex1
+      parentName: bg_character_3:RightHand
+      position: {x: -0.039164282, y: 0.11441085, z: -0.0017238406}
+      rotation: {x: 0.05859167, y: 0.002911847, z: 0.04954905, w: 0.9970474}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: bg_character_3:RightHandIndex2
+      parentName: bg_character_3:RightHandIndex1
+      position: {x: 0.0000064656388, y: 0.033254955, z: -3.590898e-10}
+      rotation: {x: -0.040218502, y: -0.0000010584479, z: -0.000063687825, w: 0.999191}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: bg_character_3:RightHandIndex3
+      parentName: bg_character_3:RightHandIndex2
+      position: {x: -0.0000036879287, y: 0.03194758, z: -1.1097825e-11}
+      rotation: {x: 0.01143252, y: -0.000000001724709, z: 0.000000007905114, w: 0.99993473}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999997}
+    - name: bg_character_3:RightHandIndex4
+      parentName: bg_character_3:RightHandIndex3
+      position: {x: -0.0000027778947, y: 0.026950642, z: 1.7217871e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftShoulder
+      parentName: bg_character_3:Spine2
+      position: {x: -0.057873305, y: 0.12247945, z: -0.000003656766}
+      rotation: {x: 0.5668684, y: -0.42267132, z: 0.56690365, w: 0.42264575}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000006}
+    - name: bg_character_3:LeftArm
+      parentName: bg_character_3:LeftShoulder
+      position: {x: 7.12228e-13, y: 0.12102934, z: -5.287367e-10}
+      rotation: {x: -0.13616306, y: -0.00019899008, z: 0.0014478861, w: 0.9906854}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftForeArm
+      parentName: bg_character_3:LeftArm
+      position: {x: -1.896717e-11, y: 0.24957345, z: -1.5193222e-10}
+      rotation: {x: -0.018542914, y: 0.000016211268, z: -0.0008771687, w: 0.9998277}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: bg_character_3:LeftHand
+      parentName: bg_character_3:LeftForeArm
+      position: {x: -1.30196765e-11, y: 0.24242067, z: -2.352351e-10}
+      rotation: {x: 0.018002164, y: 0.03713955, z: 0.013702457, w: 0.999054}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: bg_character_3:LeftHandThumb1
+      parentName: bg_character_3:LeftHand
+      position: {x: 0.030445136, y: 0.041155472, z: 0.0042107594}
+      rotation: {x: 0.0328185, y: -0.009583572, z: -0.3795894, w: 0.9245232}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: bg_character_3:LeftHandThumb2
+      parentName: bg_character_3:LeftHandThumb1
+      position: {x: -0.001608123, y: 0.041060872, z: 6.1545505e-11}
+      rotation: {x: 0.0317679, y: 0.0014010624, z: 0.04078709, w: 0.9986617}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: bg_character_3:LeftHandThumb3
+      parentName: bg_character_3:LeftHandThumb2
+      position: {x: 0.0029870113, y: 0.035308965, z: -4.7478377e-10}
+      rotation: {x: -0.031027019, y: -0.0010458293, z: -0.049578913, w: 0.9982876}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftHandThumb4
+      parentName: bg_character_3:LeftHandThumb3
+      position: {x: -0.0013788906, y: 0.0244697, z: -1.743956e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftHandMiddle1
+      parentName: bg_character_3:LeftHand
+      position: {x: 0.013323665, y: 0.113740414, z: -0.001354059}
+      rotation: {x: 0.04004438, y: -0.0005525611, z: -0.013784503, w: 0.99910265}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftHandMiddle2
+      parentName: bg_character_3:LeftHandMiddle1
+      position: {x: -0.000006706332, y: 0.038854804, z: 3.04818e-10}
+      rotation: {x: -0.041390274, y: 0.00000022246968, z: 0.000009405471, w: 0.99914306}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: bg_character_3:LeftHandMiddle3
+      parentName: bg_character_3:LeftHandMiddle2
+      position: {x: 0.0000029919975, y: 0.03635191, z: -1.7636807e-11}
+      rotation: {x: -0.0042127073, y: -0.000000029802322, z: 0.000000014901161, w: 0.9999912}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: bg_character_3:LeftHandMiddle4
+      parentName: bg_character_3:LeftHandMiddle3
+      position: {x: 0.0000037143059, y: 0.0325176, z: 2.7478109e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftHandRing1
+      parentName: bg_character_3:LeftHand
+      position: {x: -0.01334661, y: 0.1156581, z: -0.00095326616}
+      rotation: {x: 0.042998735, y: 0.0004277228, z: 0.009938425, w: 0.9990256}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftHandRing2
+      parentName: bg_character_3:LeftHandRing1
+      position: {x: -0.000007478159, y: 0.03584679, z: 2.881751e-10}
+      rotation: {x: -0.040262986, y: -0.0000009707582, z: 0.000097546195, w: 0.9991892}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: bg_character_3:LeftHandRing3
+      parentName: bg_character_3:LeftHandRing2
+      position: {x: 0.000009181984, y: 0.033034384, z: -9.9016684e-11}
+      rotation: {x: 0.04126781, y: 0.0000006547838, z: -0.000020877986, w: 0.9991482}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: bg_character_3:LeftHandRing4
+      parentName: bg_character_3:LeftHandRing3
+      position: {x: -0.0000017034951, y: 0.028208263, z: -6.318743e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftHandPinky1
+      parentName: bg_character_3:LeftHand
+      position: {x: -0.038515065, y: 0.10786626, z: -0.0019358936}
+      rotation: {x: 0.038664315, y: 0.0035134326, z: 0.009550372, w: 0.99920046}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftHandPinky2
+      parentName: bg_character_3:LeftHandPinky1
+      position: {x: -0.000018548277, y: 0.031593047, z: 5.0342522e-11}
+      rotation: {x: -0.040146247, y: 0.000006659422, z: 0.0001541072, w: 0.99919385}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000005}
+    - name: bg_character_3:LeftHandPinky3
+      parentName: bg_character_3:LeftHandPinky2
+      position: {x: 0.0000037368418, y: 0.026549384, z: -3.0291856e-11}
+      rotation: {x: -0.04134443, y: -0.0000017874531, z: 0.00002357285, w: 0.99914503}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bg_character_3:LeftHandPinky4
+      parentName: bg_character_3:LeftHandPinky3
+      position: {x: 0.000014811264, y: 0.022689296, z: -6.493252e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:LeftHandIndex1
+      parentName: bg_character_3:LeftHand
+      position: {x: 0.038538005, y: 0.11222319, z: -0.0015783542}
+      rotation: {x: 0.05613426, y: -0.0027473152, z: -0.048805032, w: 0.99722594}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_3:LeftHandIndex2
+      parentName: bg_character_3:LeftHandIndex1
+      position: {x: -0.0000056043855, y: 0.035249956, z: 7.5685447e-10}
+      rotation: {x: -0.0402604, y: 0.0000016894187, z: 0.000039473376, w: 0.99918926}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: bg_character_3:LeftHandIndex3
+      parentName: bg_character_3:LeftHandIndex2
+      position: {x: 0.0000012139259, y: 0.03216808, z: -2.7788473e-11}
+      rotation: {x: -0.018054549, y: 0.0000000084828695, z: -0.000000072359725, w: 0.99983704}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: bg_character_3:LeftHandIndex4
+      parentName: bg_character_3:LeftHandIndex3
+      position: {x: 0.000004390164, y: 0.02798046, z: -6.928218e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:Neck
+      parentName: bg_character_3:Spine2
+      position: {x: -0, y: 0.13986242, z: -8.6034274e-10}
+      rotation: {x: 0.00046634846, y: 6.4481753e-13, z: -0.0000000013849736, w: 0.9999999}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: bg_character_3:Head
+      parentName: bg_character_3:Neck
+      position: {x: -0, y: 0.081628114, z: 0.0019149368}
+      rotation: {x: -0, y: 0.0000000027699507, z: 0.000000005539895, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bg_character_3:HeadTop_End
+      parentName: bg_character_3:Head
+      position: {x: -0, y: 0.24904342, z: 0.0058423798}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_3:RightUpLeg
+      parentName: bg_character_3:Hips
+      position: {x: 0.088578425, y: -0.051765516, z: -0.0007525694}
+      rotation: {x: -0.0000021317696, y: -0.0002749813, z: 0.9999694, w: -0.007818508}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: bg_character_3:RightLeg
+      parentName: bg_character_3:RightUpLeg
+      position: {x: -4.0517653e-10, y: 0.4246535, z: 3.5422741e-12}
+      rotation: {x: -0.0022236384, y: 0.000022060998, z: -0.00991058, w: 0.9999485}
+      scale: {x: 1.0000025, y: 1.0000015, z: 0.9999999}
+    - name: bg_character_3:RightFoot
+      parentName: bg_character_3:RightLeg
+      position: {x: -4.6417464e-11, y: 0.40623486, z: -2.6387247e-12}
+      rotation: {x: 0.45085844, y: -0.014496806, z: 0.0073236907, w: 0.8924477}
+      scale: {x: 1.0000004, y: 1.0000018, z: 0.9999996}
+    - name: bg_character_3:RightToeBase
+      parentName: bg_character_3:RightFoot
+      position: {x: -1.2472375e-10, y: 0.1891378, z: -0.000000010066722}
+      rotation: {x: 0.3170205, y: 0.03082063, z: -0.0103082275, w: 0.9478617}
+      scale: {x: 1.0000026, y: 1.0000032, z: 0.9999996}
+    - name: bg_character_3:RightToe_End
+      parentName: bg_character_3:RightToeBase
+      position: {x: 1.1085674e-11, y: 0.07538291, z: -1.1535092e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5

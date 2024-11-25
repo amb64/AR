@@ -45,7 +45,7 @@ MonoBehaviour:
       m_GuidHigh: 13070611765844683608
     m_Size: {x: 0.3, y: 0.48000002}
     m_SpecifySize: 1
-    m_Name: aloy
+    m_Name: 1_aloy
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5037850108085679810
@@ -55,27 +55,7 @@ MonoBehaviour:
       m_GuidHigh: 5152263512990732264
     m_Size: {x: 0.3, y: 0.41607144}
     m_SpecifySize: 1
-    m_Name: ff7
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5385700550614131433
-      m_GuidHigh: 5235616674686992516
-    m_SerializedTextureGuid:
-      m_GuidLow: 17659982478473313246
-      m_GuidHigh: 2728362535815355401
-    m_Size: {x: 0.3, y: 0.42820513}
-    m_SpecifySize: 1
-    m_Name: mario
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4698992684740896487
-      m_GuidHigh: 4932125988077160064
-    m_SerializedTextureGuid:
-      m_GuidLow: 2861079745066911196
-      m_GuidHigh: 17133068420656254810
-    m_Size: {x: 0.3, y: 0.44964373}
-    m_SpecifySize: 1
-    m_Name: portal
+    m_Name: 1_ff7
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5463703936023732461
@@ -85,7 +65,7 @@ MonoBehaviour:
       m_GuidHigh: 2238718427982726938
     m_Size: {x: 0.3, y: 0.4152778}
     m_SpecifySize: 1
-    m_Name: playstation
+    m_Name: 1_playstation
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4966275616712246237
@@ -116,16 +96,6 @@ MonoBehaviour:
     m_Size: {x: 0.3, y: 0.2731884}
     m_SpecifySize: 1
     m_Name: 2_cloud2
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5739897177869628727
-      m_GuidHigh: 13277852287550220184
-    m_SerializedTextureGuid:
-      m_GuidLow: 7490723915477854827
-      m_GuidHigh: 1443443274488736585
-    m_Size: {x: 0.3, y: 0.43113554}
-    m_SpecifySize: 1
-    m_Name: 3_oldpc
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5144125831254372632

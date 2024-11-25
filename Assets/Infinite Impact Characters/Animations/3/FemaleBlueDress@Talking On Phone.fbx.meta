@@ -36,7 +36,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Talking On Phone
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 1165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -86,8 +115,804 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: bg_character_17_new:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: bg_character_17_new:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FemaleBlueDress@Talking On Phone(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:eeee:group2
+      parentName: FemaleBlueDress@Talking On Phone(Clone)
+      position: {x: -0, y: 0, z: 0.02855692}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:eeee:GIRL_1_1polySurface4
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: 0.000005603641, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeee:GIRL_1_1polySurface2
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeee:polySurface5GIRL_1_1
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeee:GIRL_1_1polySurface7
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeee:GIRL_1_1polySurface9
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeee:GIRL_1_1polySurface8
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:eeeee:polySurface1
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:polySurface1
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:polySurface2
+      parentName: bg_character_17_new:eeee:group2
+      position: {x: -0, y: -2.220446e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.16479139, y: 0.16479139, z: 0.16479139}
+    - name: bg_character_17_new:Hips
+      parentName: FemaleBlueDress@Talking On Phone(Clone)
+      position: {x: -0.0000000018626451, y: 0.95080525, z: 0.0056126616}
+      rotation: {x: -1.5154961e-15, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: bg_character_17_new:Spine
+      parentName: bg_character_17_new:Hips
+      position: {x: -0, y: 0.08302742, z: 0.0014364552}
+      rotation: {x: 0.0086495215, y: -0, z: 0, w: 0.9999626}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bg_character_17_new:Spine1
+      parentName: bg_character_17_new:Spine
+      position: {x: -0, y: 0.096879795, z: -1.00342526e-10}
+      rotation: {x: 0.000000008381902, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bg_character_17_new:Spine2
+      parentName: bg_character_17_new:Spine1
+      position: {x: -0, y: 0.1107198, z: -1.8844044e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: bg_character_17_new:LeftShoulder
+      parentName: bg_character_17_new:Spine2
+      position: {x: -0.054728135, y: 0.11009531, z: 0.00031843816}
+      rotation: {x: 0.56189775, y: -0.43013224, z: 0.55863535, w: 0.43264738}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: bg_character_17_new:LeftArm
+      parentName: bg_character_17_new:LeftShoulder
+      position: {x: 1.5578407e-11, y: 0.11263896, z: 7.2965234e-10}
+      rotation: {x: -0.10374813, y: 0.00056082004, z: -0.0053762193, w: 0.994589}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000002}
+    - name: bg_character_17_new:LeftForeArm
+      parentName: bg_character_17_new:LeftArm
+      position: {x: -3.2945695e-11, y: 0.19689046, z: -1.1007906e-10}
+      rotation: {x: -0.018512664, y: -0.00008325022, z: 0.004499615, w: 0.99981856}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHand
+      parentName: bg_character_17_new:LeftForeArm
+      position: {x: -8.344611e-11, y: 0.26318696, z: 3.9401593e-11}
+      rotation: {x: 0.00045083457, y: 0.04605123, z: -0.032649305, w: -0.9984053}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: bg_character_17_new:LeftHandThumb1
+      parentName: bg_character_17_new:LeftHand
+      position: {x: 0.028071873, y: 0.038931727, z: 0.0024389604}
+      rotation: {x: 0.0057435874, y: -0.0014731132, z: 0.40013155, w: -0.9164386}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000001}
+    - name: bg_character_17_new:LeftHandThumb2
+      parentName: bg_character_17_new:LeftHandThumb1
+      position: {x: -0.0026986331, y: 0.03835232, z: 3.1650815e-10}
+      rotation: {x: 0.030776711, y: 0.00034957658, z: 0.05416036, w: 0.99805784}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+    - name: bg_character_17_new:LeftHandThumb3
+      parentName: bg_character_17_new:LeftHandThumb2
+      position: {x: 0.0027226424, y: 0.034513183, z: -9.502041e-10}
+      rotation: {x: -0.035610072, y: -0.0023086148, z: -0.024852894, w: 0.999054}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bg_character_17_new:LeftHandThumb4
+      parentName: bg_character_17_new:LeftHandThumb3
+      position: {x: -0.000024007028, y: 0.029191934, z: -1.1835843e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandMiddle1
+      parentName: bg_character_17_new:LeftHand
+      position: {x: 0.01279355, y: 0.1120585, z: -0.000990788}
+      rotation: {x: -0.038009427, y: 0.00044026226, z: 0.011572638, w: -0.9992103}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: bg_character_17_new:LeftHandMiddle2
+      parentName: bg_character_17_new:LeftHandMiddle1
+      position: {x: 0.0000073687984, y: 0.038939707, z: -1.9269675e-10}
+      rotation: {x: 0.040511996, y: 0.000000044703484, z: -0, w: -0.9991791}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_17_new:LeftHandMiddle3
+      parentName: bg_character_17_new:LeftHandMiddle2
+      position: {x: -0.0000041299586, y: 0.035740774, z: 2.857714e-11}
+      rotation: {x: 0.0015290526, y: 0.000000061973125, z: -0.000000057209306, w: 0.9999988}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandMiddle4
+      parentName: bg_character_17_new:LeftHandMiddle3
+      position: {x: -0.000003239154, y: 0.031248651, z: 4.460876e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandIndex1
+      parentName: bg_character_17_new:LeftHand
+      position: {x: 0.03799715, y: 0.11055521, z: -0.0016057843}
+      rotation: {x: -0.05249224, y: 0.002243824, z: 0.04264692, w: -0.9977078}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: bg_character_17_new:LeftHandIndex2
+      parentName: bg_character_17_new:LeftHandIndex1
+      position: {x: 0.000016419339, y: 0.034571115, z: -2.772369e-10}
+      rotation: {x: -0.0408203, y: -0.0000031122456, z: -0.00007366358, w: 0.9991665}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: bg_character_17_new:LeftHandIndex3
+      parentName: bg_character_17_new:LeftHandIndex2
+      position: {x: -0.0000020854618, y: 0.03181778, z: 1.2434498e-11}
+      rotation: {x: -0.040890835, y: 0.000004143312, z: -0.000059256145, w: 0.9991636}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: bg_character_17_new:LeftHandIndex4
+      parentName: bg_character_17_new:LeftHandIndex3
+      position: {x: -0.000014333952, y: 0.02668882, z: 1.7659052e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandRing1
+      parentName: bg_character_17_new:LeftHand
+      position: {x: -0.013139367, y: 0.11502954, z: -0.0010072929}
+      rotation: {x: -0.040712632, y: -0.00029945, z: -0.007348903, w: -0.9991439}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: bg_character_17_new:LeftHandRing2
+      parentName: bg_character_17_new:LeftHandRing1
+      position: {x: 0.000009434975, y: 0.03469654, z: -9.008283e-11}
+      rotation: {x: 0.03580244, y: 0.000000059604645, z: 0.000000029802322, w: -0.9993589}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: bg_character_17_new:LeftHandRing3
+      parentName: bg_character_17_new:LeftHandRing2
+      position: {x: 0.0000013227813, y: 0.03166983, z: -4.151257e-11}
+      rotation: {x: -0.04011807, y: 0.0000050254953, z: -0.00009040658, w: 0.999195}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: bg_character_17_new:LeftHandRing4
+      parentName: bg_character_17_new:LeftHandRing3
+      position: {x: -0.000010757183, y: 0.02828244, z: 2.1701152e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandPinky1
+      parentName: bg_character_17_new:LeftHand
+      position: {x: -0.037651334, y: 0.109120145, z: -0.002607427}
+      rotation: {x: -0.048233222, y: -0.0056527983, z: -0.0046097185, w: -0.99880946}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000002}
+    - name: bg_character_17_new:LeftHandPinky2
+      parentName: bg_character_17_new:LeftHandPinky1
+      position: {x: 0.000008798571, y: 0.031315826, z: -1.8920354e-10}
+      rotation: {x: 0.03892038, y: 0.0000025862819, z: 0.00013673947, w: -0.99924237}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000001}
+    - name: bg_character_17_new:LeftHandPinky3
+      parentName: bg_character_17_new:LeftHandPinky2
+      position: {x: -0.000004593051, y: 0.024925558, z: 1.6491253e-12}
+      rotation: {x: -0.0049208845, y: -0.000000020391083, z: 0.000000057579193, w: 0.99998796}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: bg_character_17_new:LeftHandPinky4
+      parentName: bg_character_17_new:LeftHandPinky3
+      position: {x: -0.0000042067104, y: 0.020142348, z: 5.6275873e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightShoulder
+      parentName: bg_character_17_new:Spine2
+      position: {x: 0.054728135, y: 0.11009295, z: 0.00018209431}
+      rotation: {x: 0.56120884, y: 0.43066278, z: -0.559346, w: 0.4320951}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: bg_character_17_new:RightArm
+      parentName: bg_character_17_new:RightShoulder
+      position: {x: -1.1150608e-11, y: 0.11263896, z: 7.297316e-10}
+      rotation: {x: -0.10379104, y: -0.00089916587, z: 0.008615345, w: 0.99456143}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: bg_character_17_new:RightForeArm
+      parentName: bg_character_17_new:RightArm
+      position: {x: -1.2746226e-10, y: 0.19690378, z: -6.100742e-11}
+      rotation: {x: -0.018488353, y: 0.00012371379, z: -0.006686498, w: 0.9998067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: bg_character_17_new:RightHand
+      parentName: bg_character_17_new:RightForeArm
+      position: {x: -3.3151575e-11, y: 0.26318595, z: 4.2250647e-11}
+      rotation: {x: -0.0015197396, y: 0.041285917, z: -0.03175409, w: 0.99864155}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: bg_character_17_new:RightHandThumb1
+      parentName: bg_character_17_new:RightHand
+      position: {x: -0.03209258, y: 0.042864356, z: 0.0049099326}
+      rotation: {x: 0.007833163, y: -0.0015293546, z: 0.36031634, w: 0.93279606}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: bg_character_17_new:RightHandThumb2
+      parentName: bg_character_17_new:RightHandThumb1
+      position: {x: -0.0011633263, y: 0.043001592, z: 8.766794e-10}
+      rotation: {x: 0.034387376, y: -0.0024626923, z: -0.021135198, w: 0.99918205}
+      scale: {x: 1, y: 1.0000007, z: 1.0000005}
+    - name: bg_character_17_new:RightHandThumb3
+      parentName: bg_character_17_new:RightHandThumb2
+      position: {x: -0.003510771, y: 0.031982582, z: -2.4339242e-10}
+      rotation: {x: -0.02015564, y: -0.006666348, z: 0.1436084, w: 0.9894068}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: bg_character_17_new:RightHandThumb4
+      parentName: bg_character_17_new:RightHandThumb3
+      position: {x: 0.0046740915, y: 0.019816894, z: -3.6518122e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightHandMiddle1
+      parentName: bg_character_17_new:RightHand
+      position: {x: -0.013026788, y: 0.11291407, z: -0.00087304896}
+      rotation: {x: 0.032807857, y: 0.00004413724, z: 0.0013444126, w: 0.9994608}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: bg_character_17_new:RightHandMiddle2
+      parentName: bg_character_17_new:RightHandMiddle1
+      position: {x: 0.0000026817106, y: 0.03804185, z: -2.732612e-10}
+      rotation: {x: -0.02851327, y: -0.000000014901163, z: 0.00000014901163, w: 0.99959344}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: bg_character_17_new:RightHandMiddle3
+      parentName: bg_character_17_new:RightHandMiddle2
+      position: {x: -0.00000009195256, y: 0.03527202, z: -4.0779824e-11}
+      rotation: {x: -0.02677906, y: 0.00000005960465, z: -0.000000029802326, w: 0.9996414}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: bg_character_17_new:RightHandMiddle4
+      parentName: bg_character_17_new:RightHandMiddle3
+      position: {x: -0.0000025902063, y: 0.031874914, z: 9.534329e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightHandRing1
+      parentName: bg_character_17_new:RightHand
+      position: {x: 0.012296421, y: 0.113983855, z: -0.0022847203}
+      rotation: {x: -0.049554724, y: 0.0028871072, z: 0.004484281, w: -0.9987572}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: bg_character_17_new:RightHandRing2
+      parentName: bg_character_17_new:RightHandRing1
+      position: {x: 0.000010128707, y: 0.035262216, z: -1.3809753e-10}
+      rotation: {x: 0.039435387, y: 0.0000030898943, z: 0.00011417703, w: -0.9992221}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: bg_character_17_new:RightHandRing3
+      parentName: bg_character_17_new:RightHandRing2
+      position: {x: -0.0000047105464, y: 0.032565817, z: -3.8846037e-11}
+      rotation: {x: -0.013746498, y: -0.00000002133462, z: -0.00000009232709, w: 0.9999055}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: bg_character_17_new:RightHandRing4
+      parentName: bg_character_17_new:RightHandRing3
+      position: {x: -0.0000054191637, y: 0.028843034, z: 5.7198912e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightHandPinky1
+      parentName: bg_character_17_new:RightHand
+      position: {x: 0.038057648, y: 0.10954743, z: -0.0015130213}
+      rotation: {x: -0.035813145, y: 0.0045877467, z: 0.0129244225, w: -0.9992644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightHandPinky2
+      parentName: bg_character_17_new:RightHandPinky1
+      position: {x: 0.00001141747, y: 0.030990722, z: -1.0392198e-10}
+      rotation: {x: 0.04057119, y: 0.0000026491464, z: 0.00007969174, w: -0.9991767}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_17_new:RightHandPinky3
+      parentName: bg_character_17_new:RightHandPinky2
+      position: {x: -0.0000024809679, y: 0.024198323, z: -1.3981483e-11}
+      rotation: {x: -0.040914714, y: 0.0000033717151, z: -0.00003899547, w: 0.9991626}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+    - name: bg_character_17_new:RightHandPinky4
+      parentName: bg_character_17_new:RightHandPinky3
+      position: {x: -0.000008937008, y: 0.021162366, z: -1.3553825e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightHandIndex1
+      parentName: bg_character_17_new:RightHand
+      position: {x: -0.037327282, y: 0.11074646, z: -0.0015090855}
+      rotation: {x: 0.058369838, y: 0.00300385, z: 0.051306184, w: 0.99697125}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: bg_character_17_new:RightHandIndex2
+      parentName: bg_character_17_new:RightHandIndex1
+      position: {x: -0.00000040852046, y: 0.03450415, z: -1.2795587e-10}
+      rotation: {x: -0.04078721, y: -0.00000012689267, z: 0.00000346051, w: 0.9991679}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: bg_character_17_new:RightHandIndex3
+      parentName: bg_character_17_new:RightHandIndex2
+      position: {x: 0.00000040063446, y: 0.03147723, z: 2.8638869e-11}
+      rotation: {x: -0.0008313692, y: 0.000000009704688, z: 0.000000005536362, w: 0.9999997}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1}
+    - name: bg_character_17_new:RightHandIndex4
+      parentName: bg_character_17_new:RightHandIndex3
+      position: {x: 0.00000000773123, y: 0.026753206, z: -2.9651837e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:Neck
+      parentName: bg_character_17_new:Spine2
+      position: {x: -0, y: 0.124559805, z: -0.0000000033302818}
+      rotation: {x: -0.00864953, y: -0, z: -0, w: 0.9999626}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: bg_character_17_new:Head
+      parentName: bg_character_17_new:Neck
+      position: {x: -0, y: 0.06286442, z: 0.0073585836}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: bg_character_17_new:HeadTop_End
+      parentName: bg_character_17_new:Head
+      position: {x: -0, y: 0.26137817, z: 0.030595569}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:RightUpLeg
+      parentName: bg_character_17_new:Hips
+      position: {x: 0.043679204, y: -0.04603499, z: -0.0062445775}
+      rotation: {x: 0.00003342996, y: 0.0006976371, z: 0.9988536, w: -0.047863908}
+      scale: {x: 1.0000008, y: 1.000001, z: 1}
+    - name: bg_character_17_new:RightLeg
+      parentName: bg_character_17_new:RightUpLeg
+      position: {x: 4.2046416e-10, y: 0.37832826, z: -1.3403213e-11}
+      rotation: {x: -0.0063437647, y: 0.00020223278, z: -0.03186215, w: 0.9994722}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: bg_character_17_new:RightFoot
+      parentName: bg_character_17_new:RightLeg
+      position: {x: 6.743335e-10, y: 0.3958141, z: -1.573909e-11}
+      rotation: {x: 0.4653113, y: 0.0068510277, z: -0.003601644, w: 0.88511336}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: bg_character_17_new:RightToeBase
+      parentName: bg_character_17_new:RightFoot
+      position: {x: -6.195855e-11, y: 0.18432906, z: 9.835345e-10}
+      rotation: {x: 0.30098045, y: -0.008444969, z: 0.0026654836, w: 0.9535892}
+      scale: {x: 1.000001, y: 1.0000006, z: 1}
+    - name: bg_character_17_new:RightToe_End
+      parentName: bg_character_17_new:RightToeBase
+      position: {x: 1.8139601e-11, y: 0.07444773, z: 1.3420515e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bg_character_17_new:LeftUpLeg
+      parentName: bg_character_17_new:Hips
+      position: {x: -0.043679204, y: -0.04603499, z: -0.0029976405}
+      rotation: {x: -0.00011342147, y: 0.0023669738, z: 0.9988511, w: 0.04786329}
+      scale: {x: 1.0000007, y: 1.000001, z: 1}
+    - name: bg_character_17_new:LeftLeg
+      parentName: bg_character_17_new:LeftUpLeg
+      position: {x: 5.962132e-10, y: 0.3783321, z: -5.0588304e-11}
+      rotation: {x: -0.010326583, y: -0.00032918443, z: 0.031859502, w: 0.999439}
+      scale: {x: 1.0000012, y: 1.0000012, z: 1}
+    - name: bg_character_17_new:LeftFoot
+      parentName: bg_character_17_new:LeftLeg
+      position: {x: -3.3634617e-10, y: 0.3958387, z: 2.747561e-10}
+      rotation: {x: 0.46492946, y: -0.006956393, z: 0.003653206, w: 0.8853129}
+      scale: {x: 1.0000007, y: 1.0000012, z: 0.99999946}
+    - name: bg_character_17_new:LeftToeBase
+      parentName: bg_character_17_new:LeftFoot
+      position: {x: -1.2674777e-10, y: 0.18291661, z: -0.0000000030740777}
+      rotation: {x: 0.3035759, y: 0.008462371, z: -0.0026963332, w: 0.9527659}
+      scale: {x: 1.0000005, y: 1.0000014, z: 0.999999}
+    - name: bg_character_17_new:LeftToe_End
+      parentName: bg_character_17_new:LeftToeBase
+      position: {x: -1.3778673e-11, y: 0.07418233, z: -6.1236762e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
