@@ -9,6 +9,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -207,6 +208,12 @@ public class GameManager : MonoBehaviour
 
         }
 
+        // game end criteria
+        if (progress.All(value => value == 1))
+        {
+            GameEnd();
+        }
+
         // set relevant info on guide screen
         if (guideProgress >= 0 && guideProgress <= 2)
         {
@@ -229,6 +236,11 @@ public class GameManager : MonoBehaviour
 
         debugText.text = "Progress: " + guideProgress +"\nProgress value: " + progress[guideProgress];
 
+    }
+
+    void GameEnd()
+    {
+        
     }
 
 }

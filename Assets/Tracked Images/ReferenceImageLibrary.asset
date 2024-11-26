@@ -118,16 +118,6 @@ MonoBehaviour:
     m_Name: 3_tree
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5309890417070490039
-      m_GuidHigh: 12832568908555132825
-    m_SerializedTextureGuid:
-      m_GuidLow: 17245463334970420826
-      m_GuidHigh: 5415792512793385467
-    m_Size: {x: 0.3, y: 0.40875003}
-    m_SpecifySize: 1
-    m_Name: 4_game
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
       m_GuidLow: 5381322838541214697
       m_GuidHigh: 15912914122850420096
     m_SerializedTextureGuid:
@@ -136,4 +126,14 @@ MonoBehaviour:
     m_Size: {x: 0.3, y: 0.39855075}
     m_SpecifySize: 1
     m_Name: 4_turing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5448949875195714131
+      m_GuidHigh: 2824241634413192598
+    m_SerializedTextureGuid:
+      m_GuidLow: 2379045545371181981
+      m_GuidHigh: 11536714551505003707
+    m_Size: {x: 0.3, y: 0.42000002}
+    m_SpecifySize: 1
+    m_Name: 4_ada
     m_Texture: {fileID: 0}
