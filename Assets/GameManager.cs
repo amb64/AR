@@ -10,6 +10,7 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEngine.XR.Interaction.Toolkit.AR;
 
 public class GameManager : MonoBehaviour
 {
@@ -81,6 +82,12 @@ public class GameManager : MonoBehaviour
     public Camera ARCamera;
 
     int guideProgress = 0;
+
+    public ARPlacementInteractable placementInteractable;
+    public GameObject pc;
+    public GameObject mouse;
+    public GameObject monitor;
+    public GameObject keyboard;
 
     // Start is called before the first frame update
     void Start()
@@ -280,13 +287,45 @@ public class GameManager : MonoBehaviour
         Placement.SetActive(true);
     }
 
-public void OnPopupClose()
-{
-    if (win)
+    public void OnPopupClose()
     {
-        GameEnd();
+        if (win)
+        {
+            GameEnd();
+        }
     }
-}
+
+    // swap placement prefabs
+    public void Computer()
+    {
+        placementInteractable.placementPrefab = pc;
+    }
+
+    public void Keyboard()
+    {
+        placementInteractable.placementPrefab = keyboard;
+    }
+
+    public void Monitor()
+    {
+        placementInteractable.placementPrefab = monitor;
+    }
+
+    public void Mouse()
+    {
+        placementInteractable.placementPrefab = mouse;
+    }
+
+    // destroy all objects placed by the ar placement thingy
+    public void DestroyPlacedObjects()
+    {
+        GameObject[] placed = GameObject.FindGameObjectsWithTag("pcobj");
+
+        foreach (GameObject obj in placed)
+        {
+            Destroy(obj);
+        }
+    }
 
 }
 
