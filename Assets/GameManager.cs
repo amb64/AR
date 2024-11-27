@@ -56,6 +56,11 @@ public class GameManager : MonoBehaviour
 
     bool win = false;
 
+    public AudioSource winSound;
+    public AudioSource spawnSound;
+    public AudioSource collectSound;
+    public AudioSource buttonSound;
+
     public GameObject[] prefabs;
     //public List<GameObject> spawned = new List<GameObject>(){};
     
@@ -100,6 +105,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // dont interfere with the game win placement mode
+        if(!win)
+        {
         // Check if there's at least one touch input on the screen.
         if (Input.touchCount > 0)
         {
@@ -155,6 +163,9 @@ public class GameManager : MonoBehaviour
                         scanned[scannedObjectIndex] = 1;
                         progress[scannedObjectIndex] = 1;
 
+                        Handheld.Vibrate();
+                        collectSound.Play();
+
                         NextTarget();
                     }
 
@@ -164,6 +175,7 @@ public class GameManager : MonoBehaviour
                 }
 
             }
+        }
         }
     }
 
@@ -194,6 +206,8 @@ public class GameManager : MonoBehaviour
         // if the image hasnt been scanned yet, spawn the object 
         if(scanned[index] == 0)
         {
+            spawnSound.Play();
+            Handheld.Vibrate();
             GameObject newPrefab = Instantiate(curPrefab, trackedImage.transform.position, trackedImage.transform.rotation, trackedImage.transform);
         }
 
@@ -214,6 +228,16 @@ public class GameManager : MonoBehaviour
             }
 
         }
+
+        for (int i = 0; i < imageNames.Length; i++)
+        {
+            // reset scanned to 0 if the previous object wasnt collected
+            if(progress[i] == 0)
+            {
+                scanned[i] = 0;
+            }
+        }
+
 
         // game end criteria
         if (progress.All(value => value == 1))
@@ -247,6 +271,8 @@ public class GameManager : MonoBehaviour
 
     void GameEnd()
     {
+        Handheld.Vibrate();
+        winSound.Play();
         WinScreen.SetActive(true);
         GuideButton1.SetActive(false);
         GuideScreen.SetActive(false);
@@ -256,7 +282,7 @@ public class GameManager : MonoBehaviour
 
 public void OnPopupClose()
 {
-    if (win == true)
+    if (win)
     {
         GameEnd();
     }
