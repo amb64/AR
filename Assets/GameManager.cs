@@ -48,6 +48,13 @@ public class GameManager : MonoBehaviour
     public GameObject InfoScreen;
     public GameObject MainScreenMenu;
     public GameObject ARSystem;
+    public GameObject WinScreen;
+    public GameObject GuideButton1;
+    public GameObject GuideButton2;
+    public GameObject Placement;
+    public GameObject GuideScreen;
+
+    bool win = false;
 
     public GameObject[] prefabs;
     //public List<GameObject> spawned = new List<GameObject>(){};
@@ -211,7 +218,7 @@ public class GameManager : MonoBehaviour
         // game end criteria
         if (progress.All(value => value == 1))
         {
-            GameEnd();
+            win = true;
         }
 
         // set relevant info on guide screen
@@ -240,8 +247,21 @@ public class GameManager : MonoBehaviour
 
     void GameEnd()
     {
-        
+        WinScreen.SetActive(true);
+        GuideButton1.SetActive(false);
+        GuideScreen.SetActive(false);
+        GuideButton2.SetActive(true);
+        Placement.SetActive(true);
     }
 
+public void OnPopupClose()
+{
+    if (win == true)
+    {
+        GameEnd();
+    }
 }
+
+}
+
 

@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ComputerQuest.unity
     guid: c52e6cb7c03a846478be88408ae4970b
+  - enabled: 0
+    path: Assets/Scenes/PlacementTest.unity
+    guid: ed5474831d575254085b9e5a9c56837b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: bdc0f601f7b4f2046a46bebb863346cb, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 97cf5ee58e7b0d04984a3bb7fa92a5ac, type: 2}
