@@ -38,6 +38,8 @@ public class GameManager : MonoBehaviour
 
     public List<Sprite> posterImages = new List<Sprite>();
 
+    public List<Image> uiImages = new List<Image>();
+
     public TextMeshProUGUI bodyText;
     public TextMeshProUGUI titleText;
     public Image objectImage;
@@ -88,6 +90,8 @@ public class GameManager : MonoBehaviour
     public GameObject mouse;
     public GameObject monitor;
     public GameObject keyboard;
+
+    public GameObject imageHolder;
 
     // Start is called before the first frame update
     void Start()
@@ -172,6 +176,8 @@ public class GameManager : MonoBehaviour
 
                         Handheld.Vibrate();
                         collectSound.Play();
+
+                        UpdateUI();
 
                         NextTarget();
                     }
@@ -282,6 +288,7 @@ public class GameManager : MonoBehaviour
         winSound.Play();
         WinScreen.SetActive(true);
         GuideButton1.SetActive(false);
+        imageHolder.SetActive(false);
         GuideScreen.SetActive(false);
         GuideButton2.SetActive(true);
         Placement.SetActive(true);
@@ -324,6 +331,17 @@ public class GameManager : MonoBehaviour
         foreach (GameObject obj in placed)
         {
             Destroy(obj);
+        }
+    }
+
+    void UpdateUI()
+    {
+        // find the correct collectable image and then update the ui with it
+        if (progress[scannedObjectIndex] == 1)
+        {
+            Image img = uiImages[scannedObjectIndex];
+            img.sprite = images[scannedObjectIndex];
+
         }
     }
 
