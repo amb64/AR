@@ -4495,11 +4495,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Visit rooms in the Issac Newton Building and look for the specified posters.\n\nWhen
     you find a poster, hold your phone up to it to scan it. You should see a person
-    appear! \n\nThis person is a student at UoL. Tap them to find out more about
-    the Computer Science and Games Computing courses.\n\nEach person will also give
-    you a part to build your own PC! Collect them all to see your PC at the end!\n\nYou
-    can tap the \"Guide\" button at the top of the screen to see which room and poster
-    to look for. "
+    appear! \nThis person is a student at UoL. Tap them to find out more about the
+    Computer Science and Games Computing courses.\n\nEach person will also give you
+    a part to build your own PC! Collect them all to see your PC at the end! \nTo
+    see your progress, you can look in the top right of the screen. All the PC parts
+    you have collected will be displayed there!\n\nYou can tap the \"Guide\" button
+    at the top of the screen to see which room and poster to look for. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4526,7 +4527,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.1
+  m_fontSize: 24.75
   m_fontSizeBase: 30.17
   m_fontWeight: 400
   m_enableAutoSizing: 1

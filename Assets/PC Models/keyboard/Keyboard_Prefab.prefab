@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8b784c7adf430cb46927bff198e2b313, type: 2}
     - target: {fileID: 919132149155446097, guid: 3a1d9bda0c1c6a34290550a8d086a5bd, type: 3}
       propertyPath: m_Name
-      value: Razer_Cynosa_v2
+      value: Keyboard_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 3205437375437140563, guid: 3a1d9bda0c1c6a34290550a8d086a5bd, type: 3}
       propertyPath: m_Materials.Array.data[0]
